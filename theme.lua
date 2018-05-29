@@ -4,7 +4,7 @@
 
 local theme = {}
 
-theme.font          = "sans 8"
+theme.font          = "tamsyn 10"
 
 theme.bg_normal     = "#222222"
 theme.bg_focus      = "#535d6c"
@@ -17,7 +17,7 @@ theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = 10
+theme.useless_gap   = 5
 theme.border_width  = 0
 theme.border_normal = "#000000"
 theme.border_focus  = "#535d6c"
@@ -50,7 +50,6 @@ theme.menu_width  = 100
 -- beautiful.variable in your rc.lua
 --theme.bg_widget = "#cc0000"
 
-theme.titlebars_enabled = true
 -- Define the image to load
 theme.titlebar_close_button_normal = "/usr/share/awesome/themes/default/titlebar/close_normal.png"
 theme.titlebar_close_button_focus  = "/usr/share/awesome/themes/default/titlebar/close_focus.png"
